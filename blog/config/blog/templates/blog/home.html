@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body>
+        {% for i in articles %}
+        <article>
+            <img src="{{i.image}}" alt="{{i.title}}">
+            <h1>{{i.title}}</h1>
+            <p>{{i.description}}</p>
+        </article>
+        {% endfor %}
+
+    </body>
+</html>
